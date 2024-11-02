@@ -1,0 +1,32 @@
+{
+  "name": "polkadot-nus",
+  "version": "1.0.0",
+  "description": "Polkadot One-Day Seminar at NUS",
+  "license": "MIT",
+  "scripts": {
+    "start": "reveal-md ./ --watch --absolute-url http://localhost:1948",
+    "extract": "ts-node extractSyllabus.ts"
+  },
+  "dependencies": {
+    "glob": "^10.3.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reveal-md": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "gh-pages": "^6.1.0",
+    "http-server": "^14.1.1",
+    "markdown-link-check": "^3.10.3",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.7",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "packageManager": "yarn@3.2.1"
+}
