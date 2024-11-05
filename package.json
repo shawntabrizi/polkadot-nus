@@ -4,7 +4,8 @@
   "description": "Polkadot One-Day Seminar at NUS",
   "license": "MIT",
   "scripts": {
-    "start": "reveal-md ./ --watch --absolute-url http://localhost:1948"
+    "start": "reveal-md ./ --watch --absolute-url http://localhost:1948",
+    "build": "reveal-md ./ --static build"
   },
   "dependencies": {
     "reveal-md": "^5.5.2"

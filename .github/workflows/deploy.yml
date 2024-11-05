@@ -1,10 +1,8 @@
-## Deactivated deployment for now
-
 name: GitHub Pages Publish
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   gh-deploy:
@@ -18,7 +16,7 @@ jobs:
       - run: yarn install
       - name: Build
         working-directory: "."
-        run: yarn run prepare-deployment
+        run: yarn build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
