@@ -49,7 +49,7 @@ It should cover all the goals of the project:
 
 "Bitcoin: A Peer-to-Peer Electronic Cash System"
 
-<img style="width: 700px;" src="./assets/bitcoin-white-paper.png" />
+<img style="width: 700px;" src="../../assets/img/new/bitcoin-white-paper.png" />
 
 <div class="text-small">
 
@@ -63,7 +63,7 @@ https://bitcoin.org/bitcoin.pdf
 
 "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform"
 
-<img style="width: 700px;" src="./assets/ethereum-white-paper.png" />
+<img style="width: 700px;" src="../../assets/img/new/ethereum-white-paper.png" />
 
 <div class="text-small">
 
@@ -77,7 +77,7 @@ https://ethereum.org/content/whitepaper/whitepaper-pdf/Ethereum_Whitepaper_-_But
 
 "POLKADOT: VISION FOR A HETEROGENEOUS MULTI-CHAIN FRAMEWORK"
 
-<img style="width: 700px;" src="./assets/polkadot-white-paper.png" />
+<img style="width: 700px;" src="../../assets/img/new/polkadot-white-paper.png" />
 
 <div class="text-small">
 
@@ -145,7 +145,7 @@ To describe exactly how the project will be built, you have a separate technical
 
 ## The Ethereum Yellow Paper
 
-<img style="width: 700px;" src="./assets/ethereum-yellow-paper.png" />
+<img style="width: 700px;" src="../../assets/img/new/ethereum-yellow-paper.png" />
 
 <div class="text-small">
 
@@ -158,7 +158,7 @@ https://ethereum.github.io/yellowpaper/paper.pdf
 
 ## The Polkadot Gray Paper
 
-<img style="width: 700px;" src="./assets/polkadot-gray-paper.png" />
+<img style="width: 700px;" src="../../assets/img/new/polkadot-gray-paper.png" />
 
 <div class="text-small">
 
@@ -325,7 +325,7 @@ When you launch an ICO, you are selling a security.
 
 ## DOT is No Longer a Security
 
-<img style="width: 700px;" src="./assets/morph.png" />
+<img style="width: 700px;" src="../../assets/img/new/morph.png" />
 
 <div class="text-small">
 

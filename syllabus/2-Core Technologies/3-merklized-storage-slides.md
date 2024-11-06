@@ -23,12 +23,12 @@ Merkle Tries.
 
 <div>
 
-<img style="width: 600px;" src="./assets/bitcoin-merkle-tree.png">
+<img style="width: 600px;" src="../../assets/img/new/bitcoin-merkle-tree.png">
 
 </div>
 <div>
 
-<img style="width: 600px;" src="./assets/bitcoin-merkle-proof.png">
+<img style="width: 600px;" src="../../assets/img/new/bitcoin-merkle-proof.png">
 
 </div>
 </div>
@@ -41,7 +41,7 @@ Merkle Tries.
 
 <div>
 
-<img style="width: 600px; filter: invert(1);" src="./assets/merkle-tree.svg">
+<img style="width: 600px; filter: invert(1);" src="../../assets/img/new/merkle-tree.svg">
 
 </div>
 <div class="text-small">
@@ -63,7 +63,7 @@ Merkle Tries.
 
 <div>
 
-<img style="width: 600px; filter: invert(1);" src="./assets/merkle-proof.svg">
+<img style="width: 600px; filter: invert(1);" src="../../assets/img/new/merkle-proof.svg">
 
 </div>
 <div class="text-small">
@@ -105,7 +105,7 @@ Merkle Tries.
 
 ### Merkle Trie
 
-<img style="width: 1200px;" src="./assets/merkle-trie-fusion.png" />
+<img style="width: 1200px;" src="../../assets/img/new/merkle-trie-fusion.png" />
 
 ---
 

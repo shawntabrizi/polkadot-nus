@@ -243,7 +243,7 @@ Cloud Services are not only provided directly by the Polkadot Cloud, but are als
 
 ## NeuroWeb
 
-<img style="width: 1000px;" src="./assets/roadmap/neuroweb.png" />
+<img style="width: 1000px;" src="../../assets/img/new/roadmap/neuroweb.png" />
 
 https://neuroweb.ai/
 
@@ -251,7 +251,7 @@ https://neuroweb.ai/
 
 ## Frequency
 
-<img style="width: 1000px;" src="./assets/roadmap/frequency.png" />
+<img style="width: 1000px;" src="../../assets/img/new/roadmap/frequency.png" />
 
 https://www.frequency.xyz/
 
@@ -259,7 +259,7 @@ https://www.frequency.xyz/
 
 ## Phala
 
-<img style="width: 1000px;" src="./assets/roadmap/phala.png" />
+<img style="width: 1000px;" src="../../assets/img/new/roadmap/phala.png" />
 
 https://phala.network/
 
@@ -267,7 +267,7 @@ https://phala.network/
 
 ## Litentry
 
-<img style="width: 1000px;" src="./assets/roadmap/litentry.png" />
+<img style="width: 1000px;" src="../../assets/img/new/roadmap/litentry.png" />
 
 https://www.litentry.com/
 
@@ -275,7 +275,7 @@ https://www.litentry.com/
 
 ## Crust
 
-<img style="width: 1000px;" src="./assets/roadmap/crust.png" />
+<img style="width: 1000px;" src="../../assets/img/new/roadmap/crust.png" />
 
 https://crust.network/
 
@@ -289,7 +289,7 @@ Some applications directly use the services available on the Polkadot Cloud to b
 
 ## Mythical Games
 
-<img style="width: 1000px;" src="./assets/roadmap/mythical.png" />
+<img style="width: 1000px;" src="../../assets/img/new/roadmap/mythical.png" />
 
 https://mythicalgames.com/
 
@@ -297,7 +297,7 @@ https://mythicalgames.com/
 
 ## Hydration
 
-<img style="width: 1000px;" src="./assets/roadmap/hydration.png" />
+<img style="width: 1000px;" src="../../assets/img/new/roadmap/hydration.png" />
 
 https://hydration.net/
 
@@ -305,7 +305,7 @@ https://hydration.net/
 
 ## Zeitgeist
 
-<img style="width: 1000px;" src="./assets/roadmap/zeitgeist.png" />
+<img style="width: 1000px;" src="../../assets/img/new/roadmap/zeitgeist.png" />
 
 https://zeitgeist.pm/
 
@@ -313,7 +313,7 @@ https://zeitgeist.pm/
 
 ## Apillon
 
-<img style="width: 1000px;" src="./assets/roadmap/apillon.png" />
+<img style="width: 1000px;" src="../../assets/img/new/roadmap/apillon.png" />
 
 https://apillon.io/
 

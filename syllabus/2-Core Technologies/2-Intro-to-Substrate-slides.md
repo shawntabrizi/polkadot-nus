@@ -147,7 +147,7 @@ Some such mistakes are impossible to make in Rust.
 
 ### 🦀 Rust
 
-<img rounded src="./assets/rust-meme.png" />
+<img rounded src="../../assets/img/new/rust-meme.png" />
 
 Note:
 
@@ -437,7 +437,7 @@ hardcoded, but the protocol itself is flexible.
 
 - Why all this complexity? 😵‍💫😵‍💫
 
-<img style="width: 1200px" style="width: 1400px;" src="./assets/centuries.png" />
+<img style="width: 1200px" style="width: 1400px;" src="../../assets/img/new/centuries.png" />
 
 Note:
 
