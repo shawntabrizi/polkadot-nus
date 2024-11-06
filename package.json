@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "reveal-md ./ --watch --absolute-url http://localhost:1948",
-    "build": "reveal-md ./ --static build"
+    "build": "reveal-md ./ --static build --absolute-url https://www.shawntabrizi.com/polkadot-nus/"
   },
   "dependencies": {
     "reveal-md": "^5.5.2"
