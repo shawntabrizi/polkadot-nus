@@ -11,13 +11,22 @@ owner: Shawn Tabrizi
 
 ## Decentralization Has Its Costs
 
-Polkadot
+Polkadot really embodies the belief of decentralization.
+
+There are hundreds of teams and thousands of people who are all part of the Polkadot ecosystem.
+
+This makes us **resilient**, but this also makes coordination difficult.
 
 ---
 
 ## A Guiding Light
 
-If we consider the thousands of decentralized actors
+To be successful in building a future, we need to have a guiding light that everyone can understand and follow.
+
+- Vision
+- Mission
+- Goals
+- Products
 
 ---
 
@@ -28,6 +37,8 @@ Polkadot is a vision toward a world with less trust and more truth.
 ---
 
 ## Principles of Web3
+
+Less trust and more truth embodies the meaning of Web3.
 
 <div class="grid grid-cols-2 text-left">
 
