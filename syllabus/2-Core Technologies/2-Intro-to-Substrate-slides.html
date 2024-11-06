@@ -42,7 +42,7 @@ Substrate is a **Rust framework** for **building blockchains**.
 </aside></script></section><section  data-markdown><script type="text/template">
 ### Why Substrate?
 
-<img rounded width="1000px" src="../../../assets/img/5-Substrate/dev-4-1-substrate-website.gif" />
+<img rounded width="1000px" src="../../assets/img/5-Substrate/dev-4-1-substrate-website.gif" />
 
 <aside class="notes"><p>Highlight the multi-chain part.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
@@ -54,7 +54,7 @@ Substrate is a **Rust framework** for **building blockchains**.
 </script></section><section  data-markdown><script type="text/template">
 ### Why Substrate?
 
-<img rounded width="1000px" src="../../../assets/img/5-Substrate/dev-4.1-maximalism.png" />
+<img rounded width="1000px" src="../../assets/img/5-Substrate/dev-4.1-maximalism.png" />
 
 <aside class="notes"><p>Substrate is a pure technological investment against chain maximalism, even outside of Polkadot. You
 can create sovereign chains with substrate, or Polkadot Parachains, or more hybrid things. More on
@@ -199,7 +199,7 @@ fn main() {
 
 <br/>
 
-<img rounded width="900px" src="../../../assets/img/5-Substrate/dev-4-1-speed.png" />
+<img rounded width="900px" src="../../assets/img/5-Substrate/dev-4-1-speed.png" />
 
 <aside class="notes"><p>this is not 100% accurate though, rust has a small runtime that is the panic handler etc. Rust for Rustacean&#39;s chapter on <code>no_std</code> covers this very well.</p>
 <p>Also, this is a good time to talk about how we use &quot;Runtime&quot; in a different way.</p>
@@ -267,24 +267,24 @@ be a signaling mechanism.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### 🏦 Governance + Upgradeability
 
-<img src="../../../assets/img/5-Substrate/dev-4-1-substrate-monol.svg" />
+<img src="../../assets/img/5-Substrate/dev-4-1-substrate-monol.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### 🏦 Governance + Upgradeability
 
-<img src="../../../assets/img/5-Substrate/dev-4-1-substrate-monol-2.svg" />
+<img src="../../assets/img/5-Substrate/dev-4-1-substrate-monol-2.svg" />
 
 <aside class="notes"><p>the problem is that the system is one big monolith protocol. Updating any part of it requires the
 whole thing to be updated.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### 🏦 Governance + Upgradeability
 
-<img src="../../../assets/img/5-Substrate/dev-4-1-substrate-meta-substrate.svg" />
+<img src="../../assets/img/5-Substrate/dev-4-1-substrate-meta-substrate.svg" />
 
 <aside class="notes"><p>This is very similar to treating your own runtime as a smart contract.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### 🏦 Governance + Upgradeability
 
-<img src="../../../assets/img/5-Substrate/dev-4-1-substrate-meta.svg" />
+<img src="../../assets/img/5-Substrate/dev-4-1-substrate-meta.svg" />
 
 <aside class="notes"><p>In this figure, the meta-protocol, the substrate node, is not forklessly upgrade-able. It can only
 be upgraded with a fork.</p>
@@ -295,7 +295,7 @@ _The way to make a protocol truly upgradeable is to design a (fixed) meta-protoc
 </script></section><section  data-markdown><script type="text/template">
 ## Substrate Architecture
 
-<img src="../../../assets/img/5-Substrate/dev-4-1-substrate.svg" />
+<img src="../../assets/img/5-Substrate/dev-4-1-substrate.svg" />
 </script></section><section  data-markdown><script type="text/template">
 #### Substrate (simplified) Architecture
 
@@ -313,7 +313,7 @@ _The way to make a protocol truly upgradeable is to design a (fixed) meta-protoc
 
 <pba-col center>
 
-<img width="600px" src="../../../assets/img/5-Substrate/dev-4-1-substrate.svg" />
+<img width="600px" src="../../assets/img/5-Substrate/dev-4-1-substrate.svg" />
 
 </pba-col>
 </pba-cols>
@@ -333,7 +333,7 @@ _The way to make a protocol truly upgradeable is to design a (fixed) meta-protoc
 
 <pba-col center>
 
-<img width="600px" src="../../../assets/img/5-Substrate/dev-4-1-substrate.svg" />
+<img width="600px" src="../../assets/img/5-Substrate/dev-4-1-substrate.svg" />
 
 </pba-col>
 
@@ -393,11 +393,11 @@ re-implement the EVM.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### 😎 Forkless Upgrade
 
-<img style="width: 1400px;" src="../../../assets/img/5-Substrate/dev-4-1-forkless-1.svg" />
+<img style="width: 1400px;" src="../../assets/img/5-Substrate/dev-4-1-forkless-1.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### 😎 Forkless Upgrade
 
-<img style="width: 1400px;" src="../../../assets/img/5-Substrate/dev-4-1-forkless-2.svg" />
+<img style="width: 1400px;" src="../../assets/img/5-Substrate/dev-4-1-forkless-2.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### 😎 Forkless Upgrade
 
@@ -440,11 +440,11 @@ bug in it, everyone is affected.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ## Communication Paths
 
-<img style="width: 1400px" src="../../../assets/img/5-Substrate/dev-4-1-comms.svg" />
+<img style="width: 1400px" src="../../assets/img/5-Substrate/dev-4-1-comms.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### Communication Paths
 
-<img style="width: 1400px" src="../../../assets/img/5-Substrate/dev-4-1-comms-format.svg" />
+<img style="width: 1400px" src="../../assets/img/5-Substrate/dev-4-1-comms-format.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### Example: SCALE vs JSON
 
@@ -515,22 +515,22 @@ fn main() {
 </script></section><section  data-markdown><script type="text/template">
 ## Substrate and Smart Contracts
 
-<img style="width: 800px;" src="../../../assets/img/5-Substrate/dev-4-1-contracts.svg" />
+<img style="width: 800px;" src="../../assets/img/5-Substrate/dev-4-1-contracts.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### Substrate and Smart Contracts
 
-<img style="width: 800px;" src="../../../assets/img/5-Substrate/dev-4-1-contracts-full.svg" />
+<img style="width: 800px;" src="../../assets/img/5-Substrate/dev-4-1-contracts-full.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### Substrate and Smart Contracts
 
 <pba-cols>
 
 <pba-col>
-  <img style="width: 600px;" src="../../../assets/img/5-Substrate/peter-parker-glasses-off.png" />
+  <img style="width: 600px;" src="../../assets/img/5-Substrate/peter-parker-glasses-off.png" />
 </pba-col>
 
 <pba-col>
-  <img src="../../../assets/img/5-Substrate/ethereum-logo.svg" />
+  <img src="../../assets/img/5-Substrate/ethereum-logo.svg" />
 </pba-col>
 
 </pba-cols>
@@ -540,11 +540,11 @@ fn main() {
 <pba-cols>
 
 <pba-col>
-  <img style="width: 600px;" src="../../../assets/img/5-Substrate/peter-parker-glasses-on.png" />
+  <img style="width: 600px;" src="../../assets/img/5-Substrate/peter-parker-glasses-on.png" />
 </pba-col>
 
 <pba-col>
-  <img style="width: 400px; background: white; border-radius: 50%; padding: 30px;" src="../../../assets/img/5-Substrate/substrate-logo.svg" />
+  <img style="width: 400px; background: white; border-radius: 50%; padding: 30px;" src="../../assets/img/5-Substrate/substrate-logo.svg" />
   <p style="font-size: 6rem;">😎</p>
 </pba-col>
 
@@ -566,7 +566,7 @@ fee-less.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ## Development Options
 
-<img style="width: 1000px;" src="../../../assets/img/5-Substrate/dev-4-1-freedom.svg" />
+<img style="width: 1000px;" src="../../assets/img/5-Substrate/dev-4-1-freedom.svg" />
 
 <aside class="notes"><p>OpenZepplin is working on templates for substrate now:</p>
 <p><a href="https://github.com/OpenZeppelin/polkadot-runtime-template">https://github.com/OpenZeppelin/polkadot-runtime-template</a></p>
@@ -577,7 +577,7 @@ fee-less.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ## Substrate and Polkadot
 
-<img style="width: 1400px;" src="../../../assets/img/5-Substrate/dev-4-1-polkadot.svg" />
+<img style="width: 1400px;" src="../../assets/img/5-Substrate/dev-4-1-polkadot.svg" />
 
 > ..is the biggest bet against chain maximalism
 </script></section><section  data-markdown><script type="text/template">
@@ -605,14 +605,14 @@ fee-less.</p>
 <pba-cols>
 <pba-col>
 
-<img src="../../../assets/img/5-Substrate/nintendo-console-2.png" style="width:400px;" />
+<img src="../../assets/img/5-Substrate/nintendo-console-2.png" style="width:400px;" />
 
 Substrate Node
 
 </pba-col>
 <pba-col>
 
-<img src="../../../assets/img/5-Substrate/nintendo-game.png" style="width:400px;" />
+<img src="../../assets/img/5-Substrate/nintendo-game.png" style="width:400px;" />
 
 Substrate's Wasm Runtime
 
@@ -635,7 +635,7 @@ Substrate's Wasm Runtime
 
 - Questions?
 
-<img src="../../../assets/img/5-Substrate/dev-4-1-substrate.svg" />
+<img src="../../assets/img/5-Substrate/dev-4-1-substrate.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ## Part 2: Substrate Architecture
 
@@ -649,7 +649,7 @@ Let's explore this definition of the runtime a bit more.
 
 **State**
 
-<img style="width: 600px" src="../../../assets/img/5-Substrate/dev-4-1-state-def.svg" />
+<img style="width: 600px" src="../../assets/img/5-Substrate/dev-4-1-state-def.svg" />
 
 <aside class="notes"><p>entire set of data upon which we want to maintain a consensus.
 key value.
@@ -659,7 +659,7 @@ associated with each block.</p>
 
 **Transition Function**
 
-<img width="400px" src="../../../assets/img/5-Substrate/dev-4-1-state-transition-def.svg" />
+<img width="400px" src="../../assets/img/5-Substrate/dev-4-1-state-transition-def.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### State Transition Function
 
@@ -670,20 +670,20 @@ $$STF = F(block_{N+1}, state_{N}, code_{N}): state_{N+1}$$
 </aside></script></section><section  data-markdown><script type="text/template">
 ### State Transition Function
 
-<img style="width: 1200px;" src="../../../assets/img/5-Substrate/dev-4-1-state.svg" />
+<img style="width: 1200px;" src="../../assets/img/5-Substrate/dev-4-1-state.svg" />
 
 <aside class="notes"><p>This diagram should really be 100000% clear to everyone. Pause.</p>
 <p>The Wasm runtime in this figure is in fact obtained from the state (see <code>0x123</code>)</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### State Transition Function
 
-<img style="width: 1200px;" src="../../../assets/img/5-Substrate/dev-4-1-state-code.svg" />
+<img style="width: 1200px;" src="../../assets/img/5-Substrate/dev-4-1-state-code.svg" />
 
 <aside class="notes"><p>now what would happen when we want to execute block N+2?</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### State Transition Function
 
-<img style="width: 1200px;" src="../../../assets/img/5-Substrate/dev-4-1-state-code-next.svg" />
+<img style="width: 1200px;" src="../../assets/img/5-Substrate/dev-4-1-state-code-next.svg" />
 
 <aside class="notes"><p>THIS IS HOW A META-PROTOCOL MAKES A SYSTEM UPGRADE-ABLE.</p>
 <p>Q: could we have updated the code in N+1? By default, no because we load the wasm before you even look
@@ -711,7 +711,7 @@ programming runtime, but kinda too late for that now.</li>
 </aside></script></section><section  data-markdown><script type="text/template">
 ## Full Substrate Architecture
 
-<img style="width: 1400px;" src="../../../assets/img/5-Substrate/dev-4-3-full.svg" />
+<img style="width: 1400px;" src="../../assets/img/5-Substrate/dev-4-3-full.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ## Consensus <> Runtime 🤔
 
@@ -732,7 +732,7 @@ the next episode to air actually will be.</p>
 - State is the entire set of key value data that is associated with one block.
 - Database is the component that allows this be stored in disk. May or may not be key-value.
 
-<img style="width: 800px" src="../../../assets/img/5-Substrate/dev-4-1-state-database.svg" />
+<img style="width: 800px" src="../../assets/img/5-Substrate/dev-4-1-state-database.svg" />
 
 <aside class="notes"><p>state is sometimes called &quot;storage&quot; asd well.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
@@ -744,7 +744,7 @@ the next episode to air actually will be.</p>
 </script></section><section  data-markdown><script type="text/template">
 ### Database <> Runtime 🤔
 
-<img style="width: 1200px" src="../../../assets/img/5-Substrate/dev-4-1-state-opaque.svg" />
+<img style="width: 1200px" src="../../assets/img/5-Substrate/dev-4-1-state-opaque.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### The Node: Database 🤔
 
@@ -759,7 +759,7 @@ the next episode to air actually will be.</p>
 </script></section><section  data-markdown><script type="text/template">
 ### Lecture Recap - Part 2
 
-<img style="width: 1400px;" src="../../../assets/img/5-Substrate/dev-4-3-full.svg" />
+<img style="width: 1400px;" src="../../assets/img/5-Substrate/dev-4-3-full.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ## Rest of This Module! 😈
 
@@ -788,7 +788,7 @@ Highly suggested reading to ingest this lecture better:
 
 > Check speaker notes (click "s" 😉)
 
-<img width="300px" rounded src="../../../assets/img/5-Substrate/thats_all_folks.png" />
+<img width="300px" rounded src="../../assets/img/5-Substrate/thats_all_folks.png" />
 
 <aside class="notes"><ul>
 <li><p>Great documentation about all things substrate/blockchain from SMOLDOT: <a href="https://docs.rs/smoldot/latest/smoldot/">https://docs.rs/smoldot/latest/smoldot/</a></p>
@@ -847,14 +847,14 @@ They use the most generic term for client and runtime, namely &quot;Host&quot; a
 </aside></script></section><section  data-markdown><script type="text/template">
 Substrate
 
-<img style="width: 1400px;" src="../../../assets/img/5-Substrate/dev-4-1-substrate-new-1.svg" />
+<img style="width: 1400px;" src="../../assets/img/5-Substrate/dev-4-1-substrate-new-1.svg" />
 </script></section><section  data-markdown><script type="text/template">
 Polkadot
 
-<img style="width: 1400px;" src="../../../assets/img/5-Substrate/dev-4-1-substrate-new-2.svg" /></script></section><section  data-markdown><script type="text/template">
+<img style="width: 1400px;" src="../../assets/img/5-Substrate/dev-4-1-substrate-new-2.svg" /></script></section><section  data-markdown><script type="text/template">
 A Parachain
 
-<img style="width: 1400px;" src="../../../assets/img/5-Substrate/dev-4-1-substrate-new-3.svg" />
+<img style="width: 1400px;" src="../../assets/img/5-Substrate/dev-4-1-substrate-new-3.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ## Appendix: What is Wasm Anyways?
 
@@ -864,7 +864,7 @@ A Parachain
 </script></section><section  data-markdown><script type="text/template">
 ### What is Wasm Anyways?
 
-<img style="width: 1400px;" src="../../../assets/img/5-Substrate/dev-4-1-wasm-langs.svg" />
+<img style="width: 1400px;" src="../../assets/img/5-Substrate/dev-4-1-wasm-langs.svg" />
 </script></section><section  data-markdown><script type="text/template">
 ### What is Wasm Anyways?
 
@@ -881,7 +881,7 @@ A Parachain
 </pba-col>
 <pba-col>
 
-<img style="height: 700px;" src="../../../assets/img/5-Substrate/dev-4-1-wasm.svg" />
+<img style="height: 700px;" src="../../assets/img/5-Substrate/dev-4-1-wasm.svg" />
 
 </pba-col>
 </pba-cols>
@@ -901,7 +901,7 @@ A Parachain
 </aside></script></section><section  data-markdown><script type="text/template">
 ### State of Light Clients
 
-<img src="../../../assets/img/5-Substrate/dev-4-1-smoldot.svg" />
+<img src="../../assets/img/5-Substrate/dev-4-1-smoldot.svg" />
 
 <aside class="notes"><p>What was a light client? follows only block headers, therefore knows state roots, and a few other
 pieces of information, others send it state proofs if it wishes to do more.</p>
@@ -914,7 +914,7 @@ configured with GRANDPA.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### State of Light Clients
 
-<img style="width: 800px;" src="../../../assets/img/5-Substrate/dev-4-1-smoldot-browser.svg" />
+<img style="width: 800px;" src="../../assets/img/5-Substrate/dev-4-1-smoldot-browser.svg" />
 
 <aside class="notes"><p>Similarly it is dead simple to embed smoldot in mobile etc.</p>
 <p>Separate lecture on this later.</p>
