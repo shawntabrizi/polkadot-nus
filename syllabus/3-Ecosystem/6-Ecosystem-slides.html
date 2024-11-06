@@ -59,8 +59,8 @@ DOT is the native token of the Polkadot Network.
 DOT tokens can be in one of the following states:
 
 1. Transferable
-2. Frozen (Locked)
-3. Held (Reserved)
+2. Frozen
+3. Held
 
 </div>
 
@@ -68,7 +68,6 @@ DOT tokens can be in one of the following states:
 </script></section><section  data-markdown><script type="text/template">
 ## Frozen vs Held Balance
 
-- Old terms "Reserved" and "Locked" are on their way out...
 - DOT in both states belong to the user... but cannot be spent / transferred.
 - Held balances stack on top of one another.
   - Useful for user deposits, or other use cases where there is sybil concerns.
@@ -91,7 +90,7 @@ Consider the "cost" of storing data on Ethereum:
 </script></section><section  data-markdown><script type="text/template">
 ## Storage Deposits
 
-To solve this problem, Polkadot additionally takes a storage deposit (in the form of Reserved Balance) for any data stored in the blockchain.
+To solve this problem, Polkadot additionally takes a storage deposit (in the form of a Held Balance) for any data stored in the blockchain.
 
 - This deposit is returned to the user when the user removes the data from the chain.
 
