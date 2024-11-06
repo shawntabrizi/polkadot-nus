@@ -89,7 +89,7 @@ Merkle Tries.
 <div class="flex-container">
 <div class="left-small">
 
-<img src="../../../assets/img/4-Substrate/patricia-trie.svg" />
+<img src="../../assets/img/4-Substrate/patricia-trie.svg" />
 
 </div>
 
@@ -114,7 +114,7 @@ Merkle Tries.
 <div class="flex-container">
 <div class="left">
 
-<img src="../../../assets/img/4-Substrate/base-16-labeled.svg" />
+<img src="../../assets/img/4-Substrate/base-16-labeled.svg" />
 
 </div>
 
@@ -144,7 +144,7 @@ Reading, Writing, Proofs
 
 <div class="image-container">
 
-<img src="../../../assets/img/4-Substrate/merkle-read.svg" />
+<img src="../../assets/img/4-Substrate/merkle-read.svg" />
 
 <div class="top-right">
 
@@ -160,7 +160,7 @@ Reading, Writing, Proofs
 
 <div class="image-container">
 
-<img src="../../../assets/img/4-Substrate/merkle-write.svg" />
+<img src="../../assets/img/4-Substrate/merkle-write.svg" />
 
 <div class="top-right text-small">
 
@@ -185,7 +185,7 @@ Reading, Writing, Proofs
 
 <div class="image-container">
 
-<img src="../../../assets/img/4-Substrate/merkle-proof.svg" />
+<img src="../../assets/img/4-Substrate/merkle-proof.svg" />
 
 <div class="top-right text-small">
 
@@ -271,12 +271,12 @@ Not sure it is worth going to far on cache strategy, but may be relevant to ment
 <div class="flex-container">
 <div class="left" style="margin: 20px;">
 
-<img src="../../../assets/img/4-Substrate/base-16.svg" />
+<img src="../../assets/img/4-Substrate/base-16.svg" />
 
 </div>
 <div class="right" style="margin: 20px;">
 
-<img src="../../../assets/img/4-Substrate/base-2.svg" />
+<img src="../../assets/img/4-Substrate/base-2.svg" />
 
 </div>
 </div>
@@ -296,7 +296,7 @@ What works in memory as simple data structure, also work as a db over disk and a
 
 <div class="image-container">
 
-<img src="../../../assets/img/4-Substrate/pruning-1.svg" />
+<img src="../../assets/img/4-Substrate/pruning-1.svg" />
 
 <div class="top-right" style="width: 40%">
 
@@ -312,7 +312,7 @@ What works in memory as simple data structure, also work as a db over disk and a
 
 <div class="image-container">
 
-<img src="../../../assets/img/4-Substrate/pruning-2.svg" />
+<img src="../../assets/img/4-Substrate/pruning-2.svg" />
 
 <div class="top-right" style="width: 40%">
 
@@ -325,7 +325,7 @@ What works in memory as simple data structure, also work as a db over disk and a
 
 ### Pruning
 
-<img src="../../../assets/img/4-Substrate/pruning-3.svg" />
+<img src="../../assets/img/4-Substrate/pruning-3.svg" />
 
 ---
 
@@ -333,7 +333,7 @@ What works in memory as simple data structure, also work as a db over disk and a
 
 <div class="image-container">
 
-<img src="../../../assets/img/4-Substrate/pruning-4.svg" />
+<img src="../../assets/img/4-Substrate/pruning-4.svg" />
 
 <div class="top-left" style="width: 30%">
 
@@ -362,49 +362,49 @@ To understand how to parse the data in the database, you need to understand two 
 
 ### What You Will See
 
-<img src="../../../assets/img/4-Substrate/navigate-storage-toc.svg" />
+<img src="../../assets/img/4-Substrate/navigate-storage-toc.svg" />
 
 ---
 
 ### Navigating Substrate Storage
 
-<img src="../../../assets/img/4-Substrate/navigate-storage-1.svg" />
+<img src="../../assets/img/4-Substrate/navigate-storage-1.svg" />
 
 ---
 
 ### Navigating Substrate Storage
 
-<img src="../../../assets/img/4-Substrate/navigate-storage-2.svg" />
+<img src="../../assets/img/4-Substrate/navigate-storage-2.svg" />
 
 ---
 
 ### Navigating Substrate Storage
 
-<img src="../../../assets/img/4-Substrate/navigate-storage-3.svg" />
+<img src="../../assets/img/4-Substrate/navigate-storage-3.svg" />
 
 ---
 
 ### Navigating Substrate Storage
 
-<img src="../../../assets/img/4-Substrate/navigate-storage-4.svg" />
+<img src="../../assets/img/4-Substrate/navigate-storage-4.svg" />
 
 ---
 
 ### Navigating Substrate Storage
 
-<img src="../../../assets/img/4-Substrate/navigate-storage-5.svg" />
+<img src="../../assets/img/4-Substrate/navigate-storage-5.svg" />
 
 ---
 
 ### Navigating Substrate Storage
 
-<img src="../../../assets/img/4-Substrate/navigate-storage-6.svg" />
+<img src="../../assets/img/4-Substrate/navigate-storage-6.svg" />
 
 ---
 
 ### Navigating Substrate Storage
 
-<img src="../../../assets/img/4-Substrate/navigate-storage-7.svg" />
+<img src="../../assets/img/4-Substrate/navigate-storage-7.svg" />
 
 ---
 
@@ -415,7 +415,7 @@ To understand how to parse the data in the database, you need to understand two 
 
 <div>
 
-<img src="../../../assets/img/4-Substrate/patricia-trie-path.svg" style="width: 400px" />
+<img src="../../assets/img/4-Substrate/patricia-trie-path.svg" style="width: 400px" />
 
 </div>
 
@@ -428,7 +428,7 @@ Patricia provides the **trie path**.
 
 <div>
 
-<img src="../../../assets/img/4-Substrate/merkle-path.svg" style="width: 400px" />
+<img src="../../assets/img/4-Substrate/merkle-path.svg" style="width: 400px" />
 
 </div>
 
