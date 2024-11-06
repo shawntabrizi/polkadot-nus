@@ -62,19 +62,19 @@ meta questions for ice breaker:
 - As a platform for developers.
 - Polkadot stems from Ethereum. A single threaded smart contract blockchain.
 
----v
+---
 
 ### Polkadot
 
-<img width="800px" rounded src="./img/single-threaded.svg" />
+<img width="800px" rounded src="./assets/single-threaded.svg" />
 
----v
+---
 
 ### Polkadot
 
-<img width="800px" rounded src="./img/single-threaded-eth.svg" />
+<img width="800px" rounded src="./assets/single-threaded-eth.svg" />
 
----v
+---
 
 ### Polkadot
 
@@ -85,59 +85,59 @@ Note:
 
 The holy grain of what ETH 2.0 was meant to be.
 
----v
+---
 
 ### Polkadot
 
-<img width="800px" rounded src="./img/multi-threaded.svg" />
+<img width="800px" rounded src="./assets/multi-threaded.svg" />
 
 Note:
 
 Have we compromised security in any way in this model?
 
----v
+---
 
 ### Polkadot
 
-<img width="800px" rounded src="./img/multi-threaded-dot.svg" />
+<img width="800px" rounded src="./assets/multi-threaded-dot.svg" />
 
 Note: Polkadot achieves perfect shared security and sharded execution. The primitives that can
 progress an input in parallel is called a "Core", much like a normal CPU.
 
----v
+---
 
 ### Polkadot
 
-<img width="800px" rounded src="./img/dot-heterogenous.svg" />
+<img width="800px" rounded src="./assets/dot-heterogenous.svg" />
 
 Note:
 
 Let's make it heterogenous. The state transition function of these shards need NOT be the same. WASM
 is used.
 
----v
+---
 
 ### Polkadot
 
-<img width="800px" rounded src="./img/dot-parachain.svg" />
+<img width="800px" rounded src="./assets/dot-parachain.svg" />
 
 Note:
 
 The beautify of a heterogenous system is that we are no longer bound to running a single chain, and
 therefore smart contracts. We can run anything we want. We can run a whole blockchain as a shard.
 
----v
+---
 
 ### Polkadot
 
-<img width="800px" rounded src="./img/dot-parachain-auction.svg" />
+<img width="800px" rounded src="./assets/dot-parachain-auction.svg" />
 
 Note:
 
 Finally, let's make the deployment of those shards flexible and permissionless. We arrive at
 Polkadot what it is today.
 
----v
+---
 
 ### Polkadot
 
@@ -168,7 +168,7 @@ TODO: maybe turn into slides, maybe leave as notes for now.
 
 > .. So how do we build one of these parachains?
 
----v
+---
 
 ### Polkadot SDK
 
@@ -176,15 +176,15 @@ TODO: maybe turn into slides, maybe leave as notes for now.
 - This is why Polkadot has pivoted for years to build a modular and extensible blockchain framework
   called _Substrate_ and _FRAME_.
 
----v
+---
 
 ### Polkadot SDK
 
 ⛓️‍💥 Substrate 🤝 FRAME 🤝 Cumulus ⛓️‍💥
 
-<img width="800px" rounded src="./img/substrate-frame-cumulus.svg" >
+<img width="800px" rounded src="./assets/substrate-frame-cumulus.svg" >
 
----v
+---
 
 ### Polkadot SDK
 
@@ -198,7 +198,7 @@ Note:
 state transition function aka. Runtime of your blockchain and not deal with the rest of the
 software. WASM.
 
----v
+---
 
 ### Polkadot SDK
 
@@ -210,7 +210,7 @@ All proudly™️ built with Substrate.
 2. all the Polkadot Parachains to date.
 3. (less known) can be used to build any blockchain unrelated to Polkadot.
 
----v
+---
 
 ### Polkadot SDK
 
@@ -235,13 +235,13 @@ Chains can trust the execution of each other to a much higher extent. But note t
 100% guarantee. The Relay Chain cannot guarantee that a parachain won't upgrade itself to go rogue,
 but it can 100% ensure that the parachain will do exactly as stated in its WASM blob.
 
----v
+---
 
 ### Interoperability
 
-<img width="800px" rounded src="./img/dot-parachain-message.svg" />
+<img width="800px" rounded src="./assets/dot-parachain-message.svg" />
 
----v
+---
 
 ### Interoperability
 
