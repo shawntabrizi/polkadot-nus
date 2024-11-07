@@ -75,7 +75,7 @@ Check out: https://www.parity.io/blog/why-rust
 </div>
 <div class="right">
 
-<img src="../../../assets/img/4-Substrate/rust-crab.svg" />
+<img src="../../assets/img/4-Substrate/rust-crab.svg" />
 
 </div>
 
@@ -88,7 +88,7 @@ At a very high level, a Substrate node has two parts:
 1. The Client - A Wasm executor.
 2. A Wasm runtime.
 
-<img style="width: 700px; border: solid 5px #fff;" src="../../../assets/img/4-Substrate/empty-client-runtime.svg">
+<img style="width: 700px; border: solid 5px #fff;" src="../../assets/img/4-Substrate/empty-client-runtime.svg">
 
 Notes:
 
@@ -160,7 +160,7 @@ This decision is extremely important for so many reasons we will touch on throug
 - Originally built for the web as a faster and better alternative to technologies like JavaScript.
 - The open standards for WebAssembly are developed by W3C groups.
 
-<img style="width: 400px;" src="../../../assets/img/4-Substrate/browser-icons.png" alt="Wasm Logo">
+<img style="width: 400px;" src="../../assets/img/4-Substrate/browser-icons.png" alt="Wasm Logo">
 
 ---
 
@@ -179,7 +179,7 @@ This decision is extremely important for so many reasons we will touch on throug
 
 <div class="right">
 
-<img style="width: 400px;" src="../../../assets/img/4-Substrate/WebAssembly.png" alt="Wasm Logo">
+<img style="width: 400px;" src="../../assets/img/4-Substrate/WebAssembly.png" alt="Wasm Logo">
 
 </div>
 </div>
@@ -193,7 +193,7 @@ To make a Substrate compatible runtime, our only assumptions are:
 - It exposes a specific Runtime APIs.
 - It has access to specific client-side host functions.
 
-<img style="width: 700px; border: solid 5px #fff;" src="../../../assets/img/4-Substrate/simple-runtime-interface.svg">
+<img style="width: 700px; border: solid 5px #fff;" src="../../assets/img/4-Substrate/simple-runtime-interface.svg">
 
 Notes:
 
@@ -228,7 +228,7 @@ We will learn more about Runtime interfaces in lesson 4.
 </div>
 <div class="right">
 
-<img src="../../../assets/img/4-Substrate/substrate-client-wasm.svg" style="width:700px;"/>
+<img src="../../assets/img/4-Substrate/substrate-client-wasm.svg" style="width:700px;"/>
 
 </div>
 </div>
@@ -237,7 +237,7 @@ We will learn more about Runtime interfaces in lesson 4.
 
 ### Wasm is stored on chain!
 
-<img src="../../../assets/img/4-Substrate/substrate-client-wasm.svg" style="width:700px;"/>
+<img src="../../assets/img/4-Substrate/substrate-client-wasm.svg" style="width:700px;"/>
 
 Notes:
 
@@ -249,7 +249,7 @@ The state transition function of the blockchain it part of it's own state!
 
 Not everyone updates their client software in time.
 
-<img src="../../../assets/img/4-Substrate/hard-fork.svg" />
+<img src="../../assets/img/4-Substrate/hard-fork.svg" />
 
 Notes:
 
@@ -259,19 +259,19 @@ This leads to security problems, coordination issues, decision making issues, an
 
 ### Upgrading the Substrate Runtime
 
-<img style="width: 1000px;" src="../../../assets/img/4-Substrate/upgrade-start.svg" />
+<img style="width: 1000px;" src="../../assets/img/4-Substrate/upgrade-start.svg" />
 
 ---
 
 ### Upgrading the Substrate Runtime
 
-<img style="width: 1000px;" src="../../../assets/img/4-Substrate/upgrade-complete.svg" />
+<img style="width: 1000px;" src="../../assets/img/4-Substrate/upgrade-complete.svg" />
 
 ---
 
 ### Upgrading the Substrate Runtime
 
-<img style="width: 1000px;" src="../../../assets/img/4-Substrate/upgrade-options.svg" />
+<img style="width: 1000px;" src="../../assets/img/4-Substrate/upgrade-options.svg" />
 
 ---
 
@@ -280,14 +280,14 @@ This leads to security problems, coordination issues, decision making issues, an
 <div class="flex-container">
 <div class="left">
 
-<img src="../../../assets/img/4-Substrate/nintendo-console-2.png" style="width:400px;"/>
+<img src="../../assets/img/4-Substrate/nintendo-console-2.png" style="width:400px;"/>
 
 Substrate Client
 
 </div>
 <div class="right">
 
-<img src="../../../assets/img/4-Substrate/nintendo-game.png" style="width:400px;"/>
+<img src="../../assets/img/4-Substrate/nintendo-game.png" style="width:400px;"/>
 
 Substrate Runtime
 
@@ -298,7 +298,7 @@ Substrate Runtime
 
 ### Technical Freedom vs Ease
 
-<img style="width: 1000px;" src="../../../assets/img/4-Substrate/freedom-ease.svg"/>
+<img style="width: 1000px;" src="../../assets/img/4-Substrate/freedom-ease.svg"/>
 
 ---
 
@@ -334,7 +334,7 @@ FRAME is a Rust framework for more easily building Substrate runtimes.
 
 FRAME takes the opinion that the blockchain runtime should be composed of individual modules. We call these Pallets.
 
-<img style="height: 600px" src="../../../../assets/img/6-FRAME/frame1.svg" />
+<img style="height: 600px" src="../../assets/img/6-FRAME/frame1.svg" />
 
 ---
 
